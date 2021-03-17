@@ -49,4 +49,4 @@ word1 = text[0] + text[1] + text[2] + text[3] + text[4] + text[5]
 word2 = text[7] + text[8]
 word3 = text[-4] + text[-3] + text[-2] + text[-1]
 
-print((word1) + (word2) + (word3))
+print((word1, "\t" ) + (word2 ) + (word3))
