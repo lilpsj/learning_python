@@ -42,4 +42,3 @@ monja3 = '''"문자"는 홑따옴표(')와 '''
 monja4 = """ 쌍따옴표(")를 사용해서 저장할 수 있습니다."""
 fullText = monja3 + monja4
 print(fullText)
-
