@@ -15,8 +15,7 @@ print(7 % 7)
 print(8 % 7)
 print(9 % 7)
 
-
-#예제
+"예제"
 div = (37 % 2)
 print(div)
 

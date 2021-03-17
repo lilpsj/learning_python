@@ -27,4 +27,22 @@ print("neqResult = ", neqResult)
 print("gtResult = ", gtResult)
 print("ltResult = ", ltResult)
 print("gteResult = ", gteResult)
-print("lteResult = ", lteResult)
+print("lteResult = ", lteResult, "\n")
+
+#예제
+a = 17
+b = 10
+etrequest = a > b
+print("etrequest = ", etrequest, "\n")
+
+oddSum = 1+3+5+7+9
+evenSum = 2+4+6+8+10
+erRequest = oddSum > evenSum
+print("erRequest = ", erRequest, "\n")
+
+print("수 입력 : ", end="")
+num = int(input())
+print(num % 2==1)
+print(num % 2!=0, "\n")
+'''print((num % 2) == 1)'''
+'''print((num % 2) != 1)'''

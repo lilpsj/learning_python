@@ -2,7 +2,7 @@
 # 메서드 -> input, print와 같은 기능을 의미
 
 data = "Breakfast is {} and {}". format("spam", "eggs")
-#str만 메서드 기능 제공
+#str만 메서드 기능 제공 ,  Q.str데이터일때 split써도됌??
 print(data)
 
 print("My name is {}". format ("Lily"))

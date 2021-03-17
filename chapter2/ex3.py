@@ -41,12 +41,13 @@ age = input()
 # 같은 타입의 데이터끼리만 처리됨, 2021=int <-> age=str이라서 Err
 
 year = 2021 - int(25)
-'''
+"""
 int(n) -> n을 정수로 변환
 float(n) -> n을 실수로 변환
 bool -> n을 논리로 변환
 str -> n을 문자열로 변환
-'''
+(list, tuple), dic, set 등등
+"""
 # 문자열, 실수, 논리를 정수화
 var1 = int(26)
 var2 = int(3.14)
