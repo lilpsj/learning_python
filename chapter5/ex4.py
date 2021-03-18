@@ -45,8 +45,10 @@ print(text[-9])
 #아래와 같이 출력하세요
 
 text = "python is easy"
+#Python
 word1 = text[0] + text[1] + text[2] + text[3] + text[4] + text[5]
+#Is
 word2 = text[7] + text[8]
+#Esy
 word3 = text[-4] + text[-3] + text[-2] + text[-1]
 
-print((word1, "\t" ) + (word2 ) + (word3))
