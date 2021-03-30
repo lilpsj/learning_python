@@ -40,7 +40,7 @@ numberList_1 = [1,2,3]
 numberList_2 = [4,5,6]
 fullNumberList = numberList_1 + numberList_2
 
-print("예제1 = ". fullNumberList, "\n")
+print("예제2 = ", fullNumberList, "\n")
 
 #리스트 연산 - 곱셈
 dumyList = [1] * 5

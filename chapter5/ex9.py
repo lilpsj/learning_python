@@ -54,6 +54,32 @@ menu.setdefault("espresso", 4100)
 
 '카멜표기법 : 단어와 단어사이에 대문자로 표기'
 
+#딕셔너리 수정
+menu["카푸치노"] = 5300
+menu.update(돌체라떼 = 6500)
+print(menu)
+'''update를 사용해서 없는 key에다가 저장하면 코드 가독성이 떨어짐'''
+
+menu["아메리카노"] = 4700
+menu["카패 라떼"] = 5100
+menu["카푸치노"] = 5300
+menu["오트밀라떼"] = 5400
+menu["돌체라떼"] = 6500
+menu.update(에스프레소 = 4100)
+menu.update(더블샷 = 4500)
+
+#딕셔너리 삭제
+'처리과정 ; 기존데이터(menu)에서, "오트밀라뗴"를 꺼냄'
+removeItem = menu.pop("오트밀라떼")
+print(removeItem)
+
+removeItem1 = menu.pop("더블샷")
+print(removeItem1)
+print(menu)
+
+
+
+
 
 
 

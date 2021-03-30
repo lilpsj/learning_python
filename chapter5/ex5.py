@@ -35,6 +35,4 @@ print(text[:19])
 print(text[:],"\n")
 
 #인덱스 번호 하나를 지정해서 접근할 때는 인덱스 범위를 벗어나면 컴파일에러 발생
-print[text[14])
-
-
+print([text[14])

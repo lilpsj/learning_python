@@ -27,3 +27,6 @@ print(f"{who} make me {how}")
 
 age = 25
 print(f"내년엔 {age+1}살이 됩니다.")
+
+a,b=map(int,input().split())
+print(a*b)

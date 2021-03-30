@@ -10,6 +10,9 @@
    인덱스, 슬라이싱 가능
    특정한 패턴으로 연속되는 수자를 요소로 갖고 있는 시퀀스 자료형
    변수명 =range(시작값(이상), 마지막값(미만), 패턴)
+
+5. byte
+6. bytearray
 '''
 
 #자료형 변경
@@ -46,7 +49,7 @@ print("range -> list = ", rangeToList1)
 print("list -> range = ", rangeToList2, "\n")
 
 #예제1_1부터 10까지 모든수를 갖고 있는 Range
-num_ex1 = range(0,11, )
+num_ex1 = range(1,11, )
 rangeToList3 = list(num_ex1)
 print("예제1 = ", rangeToList3)
 
